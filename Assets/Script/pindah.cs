@@ -1,0 +1,16 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class pindah : MonoBehaviour
+{
+    public void LoadToScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+    public void QuitApps()
+    {
+        Application.Quit();
+    }
+}
